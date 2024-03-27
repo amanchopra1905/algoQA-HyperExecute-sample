@@ -1,4 +1,5 @@
-HyperExecute Integration with AlgoQA
+**HyperExecute Integration with AlgoQA**   
+
 HyperExecute is an AI Powered Test Orchestration Cloud Platform, enabling test automation teams worldwide to achieve an accelerated time to market. For integrating HyperExecute with algoQA, make sure to run your test scripts through the ‘Remote’ desired capability. You can select all your desired capabilities from Lambda Test Capabilities Generator.
  
 **Pre-requisites**         
