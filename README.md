@@ -7,6 +7,7 @@ HyperExecute is an AI Powered Test Orchestration Cloud Platform, enabling test a
 •	HyperExecute CLI in order to initiate a test execution Job.    
 •	Your lambdatest Username and Access key     
 •	Sample scripts
+•	Java and Maven
 
  
 
