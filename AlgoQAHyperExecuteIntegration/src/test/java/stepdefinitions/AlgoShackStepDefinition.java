@@ -2,7 +2,10 @@ package stepdefinitions;
     import io.cucumber.java.en.*;
     import workflows.SeleniumWorkFlow;
     import org.junit.Assert;
-    import common.Assertion;
+    import org.openqa.selenium.WebElement;
+
+import common.Assertion;
+import common.WebBrowserUtil;
     public class AlgoShackStepDefinition
 	{
         SeleniumWorkFlow workFlow = new SeleniumWorkFlow();
@@ -11,7 +14,11 @@ package stepdefinitions;
             @When("^I selected Sign Up link in sign up$")			
             public void WhenISelectedSignUpLinkInSignUp()
             {
+            	WebElement elementToBeClicked = WebBrowserUtil.findElement("//p[text()='Sign In']","XPATH");
+                WebBrowserUtil.Selected(elementToBeClicked);
                 workFlow.clickedElement(0,"AlgoShack","AlgoShack.SignUplinkButtonXPATH","XPATH");
+                WebElement elementToBeClicked1 = WebBrowserUtil.findElement("//h4[contains(.,'Get Started')]","XPATH");
+                WebBrowserUtil.Selected(elementToBeClicked1);
                 
             }
 

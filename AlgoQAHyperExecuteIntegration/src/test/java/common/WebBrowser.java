@@ -176,7 +176,8 @@ public class WebBrowser {
 				//						Paths.get(path.toString(), "src", "test", "resources", "chromedriver").toString());
 				//				}
 				
-				WebDriverManager.chromedriver().setup();
+//				WebDriverManager.chromedriver().setup();
+				WebDriverManager.chromedriver().clearDriverCache().setup();
 				//Create a map to store  preferences
 				Map<String, Object> prefs = new HashMap<String, Object>();
 
