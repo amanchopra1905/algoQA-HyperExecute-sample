@@ -138,8 +138,8 @@ public class WebBrowser {
 		//		browserOptions.setBrowserName("Chrome");
 				browserOptions.setBrowserVersion("114.0");
 				HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-				ltOptions.put("username", "vishalakshi.hiremani");
-				ltOptions.put("accessKey", "GNNhFtVUKgCzeJRHTkcqHZkspBaQBALbrO4X7m0ILMCPPpTpMs");
+				ltOptions.put("username", System.getenv("LT_USERNAME"));
+				ltOptions.put("accessKey", System.getenv("LT_ACCESS_KEY"));
 				ltOptions.put("project", "Untitled");
 				ltOptions.put("selenium_version", "4.0.0");
 				ltOptions.put("w3c", true);
@@ -149,8 +149,9 @@ public class WebBrowser {
 							
 
 				try {
-
-					remotedriver = new RemoteWebDriver(new URL("https://vishalakshi.hiremani:GNNhFtVUKgCzeJRHTkcqHZkspBaQBALbrO4X7m0ILMCPPpTpMs@hub.lambdatest.com/wd/hub"),
+					String username = System.getenv("LT_USERNAME");
+					String accessKey = System.getenv("LT_ACCESS_KEY");
+					remotedriver = new RemoteWebDriver(new URL("https://"+username+":"+accessKey+"@hub.lambdatest.com/wd/hub"),
 							browserOptions);
 					SessionId sessionid = remotedriver.getSessionId();
 					System.out.print("Driver session id is :"+sessionid.toString());
@@ -348,8 +349,8 @@ public class WebBrowser {
 	//		browserOptions.setBrowserName("Chrome");
 			browserOptions.setBrowserVersion("114.0");
 			HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-			ltOptions.put("username", "vishalakshi.hiremani");
-			ltOptions.put("accessKey", "GNNhFtVUKgCzeJRHTkcqHZkspBaQBALbrO4X7m0ILMCPPpTpMs");
+			ltOptions.put("username", System.getenv("LT_USERNAME"));
+			ltOptions.put("accessKey", System.getenv("LT_ACCESS_KEY"));
 			ltOptions.put("project", "Untitled");
 			ltOptions.put("selenium_version", "4.0.0");
 			ltOptions.put("w3c", true);

@@ -1,51 +1,17 @@
 package common;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.Assert.assertFalse;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Base64;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import org.apache.commons.io.FileUtils;
+import java.util.*;
 import org.apache.log4j.Logger;
-import org.hamcrest.CoreMatchers;
-import org.junit.ClassRule;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.asserts.SoftAssert;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
-//import com.cucumber.listener.Reporter;
-import com.google.common.io.Files;
-
-//import org.testng.asserts.SoftAssert;
-//vish commented following 3 lines
-//import cucumber.api.Scenario;
-//import cucumber.api.java.After;
-//import cucumber.api.java.Before;
-import common.CommonUtil;
-import common.TFSUtil;
-import common.WebBrowser;
 import io.cucumber.java.*;
 import ScreenRecorder.ScreenRecorderUtil;
-import org.monte.screenrecorder.ScreenRecorder;
 
 public class Hooks {
 	public WebDriver driver;
@@ -278,20 +244,16 @@ final static Logger log = Logger.getLogger(Hooks.class);
         }	
 		String abc=System.getProperty("user.dir");
 		 File dir = new File(abc+"//output//");
-		    File[] files = dir.listFiles();
-		    File lastModified = Arrays.stream(files).filter(File::isDirectory).max(Comparator.comparing(File::lastModified)).orElse(null);
-		    System.out.println(lastModified);
-		   
 		      try {
 				   
 		    	  int totalCount = passCount+failCount+skipCount;
 					String json = "{\"TotalTest\":"+String.valueOf(totalCount)+","+"\"passed\":"+passCount+","+"\"failed\":"+failCount+","+"\"skipped\":"+skipCount+"}";			    	
-					String path= lastModified+"//Execution_status.json";
+					String path="Execution_status.json";
 					System.out.println("PATH :"+path);
 					BufferedWriter writer = new BufferedWriter(new FileWriter(new File(path)));
 					writer.write(json);
 					writer.close();		    	  
-		    	  FileWriter myWriter = new FileWriter(lastModified+"//ExexutedTagDetails.txt");
+		    	  FileWriter myWriter = new FileWriter("ExexutedTagDetails.txt");
 		    	  Set<String> uniqueTag = new HashSet<String>(tagsExecuted);
 				String test="";
 				String set="";
