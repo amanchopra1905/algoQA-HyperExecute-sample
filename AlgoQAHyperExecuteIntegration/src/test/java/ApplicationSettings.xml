@@ -18,7 +18,7 @@
     <EnableSoftassertion>False</EnableSoftassertion>
     <SubmitResultToTFS>false</SubmitResultToTFS>
     <LambdaTestBuild>DemoBuild</LambdaTestBuild>
-    <LambdaTestURL>https://amanc:pyimrYgw2nNu717noPaaHKZrFK4l9XXixmm6U2YquuBHQtTQ0a@hub.lambdatest.com/wd/hub</LambdaTestURL>
+    <LambdaTestURL>https://username:access-key@hub.lambdatest.com/wd/hub</LambdaTestURL>
     <NetworkLog>True</NetworkLog>
     <AutoHealing>False</AutoHealing>
     <EnablePercy>yes</EnablePercy>
