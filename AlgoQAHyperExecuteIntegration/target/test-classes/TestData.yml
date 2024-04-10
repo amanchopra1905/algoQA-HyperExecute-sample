@@ -1,0 +1,467 @@
+#Test1 test data
+FirstName1: "Gayatri"
+LastName1: "Patro"
+EmailAddresss1: "gayatri@gmail.com"
+Passwords1: "Gayatri@123456"
+ConfirmPassword1: "Gayatri@123456"
+CollegeName1: "NIST"
+SignedupSuccessfullypopupSMS1: "You have Signed up Successfully. Check your inbox and verify your email address."
+
+#Test2 test data
+ExistingFirstName1: "Gayatri"
+ExistingLastName1: "Patro"
+ExistingEmailAddress1: "gayatri@algoshack.com"
+ExistingPassword1: "Gayatri@1980"
+ExistingConfirmPassword1: "Vish@1980"
+CompanyName1: "AlgoShack"
+UserAlreadyexistspopupSMS1: "User already exists"
+
+#Test3 test data
+
+#Test4 test data
+PleaseprovideyourfirstnameerrorSMS1: "Please provide your first name"
+PleaseprovidecollegenameerrorSMS1: "Please provide college name"
+PleaseprovideyouremailaddresserrorSMS1: "Please provide your email address"
+
+#Test5 test data
+FirstName2: "123"
+LastName2: "456"
+OnlyalphabetsareallowedforFirstnameerrorSMS1: "should start with a Alphabet"
+OnlyalphabetsareallowedforLastnameerrorSMS1: "should start with a Alphabet"
+FirstName3: "@#%^"
+LastName3: "@#%^"
+FirstName4: "123abc"
+LastName4: "456abc"
+
+#Test6 test data
+PleaseenterapassworderrorSMS1: "Password is required"
+PleaseenteraconfirmpassworderrorSMS1: "Please enter a confirm password"
+EmailAddresss2: "111111@gmail.com213"
+PleaseentervalidemailaddresserrorSMS1: "Please enter valid email address"
+
+#Test7 test data
+Passwords2: "GGGG"
+InvalidpassworderrorSMS1: "Password must contain atleast one uppercase & one lowercase alphabet, numbers and special characters"
+Passwords3: "gggggg"
+Passwords4: "123456"
+Passwords5: "@#$%^"
+
+#Test8 test data
+Passwords6: "@copiedtext"
+
+#Test9 test data
+EmailAddress1: "gayatri@algoshack.com"
+Password1: "Gayatri@123"
+UserSignedInSuccessfully1: "User Signed In Successfully"
+
+#Test10 test data
+
+#Test11 test data
+AgreementisrequirederrorSMS1: "Agreement is required"
+Pleaseselect1: "Please select"
+
+#Test12 test data
+Passwords7: "gay"
+passwordwithmorethan4characterserrorsms1: "Please enter a password with more than 4 characters"
+
+#Test13 test data
+SearchProjectname1: "abc"
+Projectname1: "abc"
+ApplicationType1: "Desktop Automation"
+EnteryourProjectNameErrorSMS1: "Enter your Project Name"
+Projectname2: "DemoDemoDemoDemoDemoDemoDemoDemoDemoDemo"
+ProjectNameshouldnotbemorethan35characters1: "Project Name should not be more than 35 characters length"
+ProjectunderProjectExplorer1: "abc"
+
+#Test14 test data
+Projectname3: "Demo"
+ProjectcreatedsuccessfullySMS1: "Project created successfully"
+ProjectunderProjectExplorer2: "1"
+youdonothaveconfigurationAlertpopupSMS1: "The test case(s) cannot be recorded without completing the offline model configuration"
+SuccessfullyDeletedSMS1: "Successfully Deleted"
+
+#Test15 test data
+Projectname4: "|@$%"
+ProjectNamecancontainsalphanumericSinglespaceBetweenWordsandunderscoreerrorSMS1: "Project Name can contains alphanumeric, single space between words and underscore, starting with alphabet only"
+Projectname5: "1111"
+Projectname6: "#$%461"
+Projectname7: "236Gayu"
+
+#Test16 test data
+Projectname8: "sdw236"
+Areyousureyouwanttodeletethisproject1: "Are you sure you want to delete this project"
+
+#Test17 test data
+SearchProjectname2: "Auto_SAAS_TCs"
+ProjectNameisrequirederrosSMS1: "Project Name is required"
+NewprojectName1: "@#$%"
+CopyProjectnameerrorSMS1: "Project Name can contains alphanumeric, single space between words and underscore, starting with alphabet only"
+NewprojectName2: "12445"
+NewprojectName3: "12abc"
+NewprojectName4: "12#$"
+
+#Test18 test data
+Projectname9: "Demo1"
+Projectname10: "1"
+Projectname11: "Demo of Existing Project"
+ProjectNamealreadyexist1: "already exist"
+
+#Test19 test data
+NewprojectName5: "ZZZ"
+NewprojectName6: "abc"
+SuccessfullyCopiedProject1: "Successfully Copied Project"
+SetUps_files1: "SetUps_"
+Nodenamefiles1: ".json"
+
+#Test20 test data
+ScenarioName1: "ab"
+ScenarioOutline1: "Verify that Scenario Name should not be more than 60 characters length"
+ScenarioNameistooshorterrorsms1: "Scenario Name is too short"
+ScenarioName2: "AJKN KJASNCKLJNX NASLNXKLS KLASNKLN KASNKLN NASKXNKLAN KASXLSNX NASKLNXKLASN NASKLNKLAS KASNKLN ASKXNKLASN KANXKLNSKLLAAL LKAndsklandklsandasn jkdnsjkasnklsa"
+ScenarioNameshouldnotbemorethan60characterserrorsms1: "Scenario Name should not be more than 60 characters length"
+ScenarioName3: "algoshack"
+PleaseenteryourScenarioNameerrorsms1: "Please enter your Scenario Name"
+ScenarioName4: "@#$%^"
+ScenarioNamecanacceptalphanumericerrorsms1: "Scenario Name can accept alphanumeric, Single space Between Words and underscore starting with alphabet only"
+ScenarioName5: "123465"
+
+#Test21 test data
+ScenarioName6: "@randomtext"
+ScenarioOutline2: "Verify that Scenario outline should accept more than 500"
+ScenarioCreatedSuccessfullySMS1: "Scenario Created Successfully"
+
+#Test22 test data
+ScenarioName7: "scenario cancel button"
+ScenarioOutline3: "Verify that Scenario outline should accept more than 500 characters length"
+CustomTag1: "algoshack"
+ScenarioOutline4: "Create a project"
+ScenarioName8: "create button in follow meeeee"
+ScenarioOutline5: "@#$% 1234 __Verify that _Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length Verify that Scenario outline should accept more than 500 characters length"
+
+#Test23 test data
+ScenarioName9: "search controls in Follow meeeeeeeee"
+ScenarioOutline6: "search controls in Follow me"
+ScrollBar1: "3"
+FollowMeSearchControl1: "password"
+FollowMeSearchControl2: "sauuduiahs"
+
+#Test24 test data
+FirstName5: "jj j nkknnnnnnj          hkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkabc"
+LastName5: "jj j nkknnnnnnj          hkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkabc"
+Firstnamecannotbegreaterthan35errorSMS1: "First name cannot be greater than 35 characters"
+Lastnamecannotbegreaterthan35errorSMS1: "Last name cannot be greater than 35 characters"
+
+#Test25 test data
+Passwords8: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+Passwordcannotbemorethan35characterserrorsms1: "Password cannot be more than 35 characters"
+
+#Test26 test data
+Passwords9: "gayatri@123"
+ConfirmPassword2: "Gayatri@1234"
+PassworddonotmatcherrorSMS1: "Password do not match"
+
+#Test27 test data
+
+#Test28 test data
+
+#Test29 test data
+Passwords10: "Aa@1234"
+
+#Test30 test data
+Passwords11: "Aa@1234a"
+
+#Test31 test data
+Passwords12: "Aa@1234pa"
+
+#Test32 test data
+Passwords13: "Aa@1234paLKJ"
+
+#Test33 test data
+
+#Test34 test data
+CollegeName2: "123#$%"
+OnlyalphabetsareallowedforCollegeName1: "Only alphabets are allowed"
+
+#Test35 test data
+CompanyName2: "123#$%"
+OnlyalphabetsareallowedforCompanyName1: "Only alphabets are allowed"
+PleaseprovidecompanynameerrorSMS1: "Please provide company name"
+
+#Test36 test data
+NewprojectName7: "aaaabc123"
+
+#Test37 test data
+SearchProjectname3: "Clock"
+NameforCopiedProject1: "Name for Copied Project"
+NewprojectName8: "qwertyuiop asdfghjkl zxcvbnm qwertyuiop asdfghjkl zxcvbnm"
+CopiedProjectNameshouldnotbemorethan35characterslengtherrorsms1: "Project Name should not be more than 35 characters length"
+NewprojectName9: "Clock"
+Projectwithsimilarnamealreadyexistserrorsms1: "Project with similar name already exists"
+CopiedProjectNameerrorSMS1: "Copied project name should be different than the original one !"
+NewprojectName10: "Keka"
+SearchProjectname4: "2"
+
+#Test38 test data
+SearchProjectname5: "API"
+
+#Test39 test data
+EmailAddress2: "gayatri@123.com"
+IncorrectEmailorPassword1: "Incorrect Email/Password"
+Password2: "aaaaa1233"
+
+#Test40 test data
+EnteryourEmailerrorSMS1: "Enter your Email"
+ForgotPasswordEmailAddress1: "abc@2.com"
+UserNotFounderrorSMS1: "User Not Found"
+ForgotPasswordEmailAddress2: "abc@gmail.com"
+ForgotPasswordEmailAddress3: "gayatri@algoshack.com"
+OTPSentSuccessfullySMS1: "OTP Sent Successfully"
+second1: "30"
+OTPFileds1: "1234"
+IncorrectOTPerrorSMS1: "Incorrect OTP"
+
+#Test41 test data
+
+#Test42 test data
+SigninPleaseprovideyouremailaddress1: "Please provide your email address"
+SigninPleaseenteryourpassword1: "Please enter your password"
+
+#Test43 test data
+
+#Test44 test data
+Itwillresetyourcurrentconfigurationwouldyouliketoconfirm1: "It will reset your current configuration, would you like to confirm?"
+
+#Test45 test data
+PleaseselectfileerrorSMS1: "Please select file"
+UploadFilesfromfilemanager1: "TestData.yml"
+PleaseselectcsvfileerrorSMS1: "Please select csv file"
+UploadFilesfromfilemanager2: "SAAS_Functional_TCs_Web Automation_SRS_TestCases.feature"
+UploadFilesfromfilemanager3: "ApplicationSettings.xml"
+UploadFilesfromfilemanager4: "ScrapedFile"
+SuccessfullyuploadedFilesSMS1: "Successfully uploaded"
+UploadFilesfromfilemanager5: "ScrapedFile.csv"
+
+#Test46 test data
+forsometime1: "30"
+EditProfileFirstName1: "abc"
+EditProfileLastName1: "def"
+EditProfileUpdatedSuccessfullySMS1: "Profile Updated Successfully"
+EditProfileFirstName2: "Gayu"
+EditProfileLastName2: "Nayak"
+EditProfileFirstName3: "1"
+EditProfileLastName3: "1"
+EditProfilePleaseprovideyourfirstnameErrorSMS1: "Please provide your first name"
+EditProfileFirstName4: "@123$$"
+EditProfileLastName4: "|123"
+EditProfileOnlyalphabetsareallowedErrorSMS1: "Only alphabets are allowed"
+EditProfileFirstName5: "GayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatri"
+EditProfileLastName5: "GayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatriGayatri"
+EditProfileFirstname35characterserrorSMS1: "First name cannot be greater than 35 characters"
+EditProfileLastname35characterserrorsms1: "Last name cannot be greater than 35 characters"
+
+#Test47 test data
+ChangePasswordCurrentPassword1: "Gayatri@123"
+ChangePasswordNewPassword1: "Gayatri@1234"
+ChangePasswordConfirmPassword1: "Gayatri@1234"
+ChangePasswordPleaseenteranewpassworderrorSMS1: "Please enter a new password"
+ChangePasswordNewPassword2: "Gayatri@123"
+ChangePasswordConfirmPassword2: "Gayatri@123"
+ChangePasswordPleaseenteryourcurrentpassworderrorSMS1: "Please enter your current password"
+ChangePasswordNewPassword3: "12345678"
+ChangePasswordConfirmPassword3: "12345678"
+ChangePasswordPasswordmustcontainatleasterrorSMS1: "Password must contain atleast one uppercase & one lowercase alphabet, numbers and special characters"
+ChangePasswordNewPassword4: "gayu123"
+ChangePasswordConfirmPassword4: "gayu123"
+ChangePasswordNewPassword5: "@#$123"
+ChangePasswordConfirmPassword5: "@#$123"
+ChangePasswordNewPassword6: "@#$gayu"
+ChangePasswordConfirmPassword6: "@#$gayu"
+ChangePasswordNewPassword7: "Gayatri"
+ChangePasswordConfirmPassword7: "Gayatri"
+ChangePasswordNewPassword8: "@#$%"
+ChangePasswordConfirmPassword8: "@#$%"
+ChangePasswordCurrentPassword2: "1"
+ChangePasswordNewPassword9: "2"
+ChangePasswordConfirmPassword9: "3"
+PleaseloginagainwithnewpasswordSMS1: "Please login again with new password !"
+Password3: "Gayatri@1234"
+ChangePasswordCurrentPassword3: "Gayatri@1234"
+ChangePasswordNewPassword10: "Gayatri@123"
+ChangePasswordConfirmPassword10: "Gayatri@123"
+
+#Test48 test data
+
+#Test49 test data
+
+#Test50 test data
+
+#Test51 test data
+UploadProfilePicturefromFileManager1: "file_example_MP4_640_3MG.mp4"
+Filesizemorethan2mbarenotallowederrorSMS1: "File size more than 2 mb are not allowed"
+
+#Test52 test data
+UploadProfilePicturefromFileManager2: "Sample-jpg-image-1mb.jpg"
+
+#Test53 test data
+
+#Test54 test data
+FollowMeAssertionorActiontextbox1: "clicked"
+EditControlAliasName1: "@#$&*("
+AliasNamecanaccepterrorSMS1: "Alias Name can accept alphanumeric, space and underscore starting with alphanumeric only"
+EditControlAliasName2: "Gayatri"
+EditControlAliasName3: "My Control"
+EditControlCustomAction1: "clicked"
+EditControlAction1: "avoid param"
+EditControlCustomValue1: "algoshack"
+EditControlMessage1: "PLease provide the Message"
+EditScenarioCustomAction1: "@copiedtext"
+EditScenarioAliasName1: "1"
+EditScenarioAction1: "@copiedtext"
+
+#Test55 test data
+EditControlCustomValue2: "#$&123gayatri"
+EditScenarioCustomValue1: "@copiedtext"
+
+#Test56 test data
+ScenarioFormScenarioName1: "Abc#$%"
+EditScenarioScenarioNamecanacceptalphanumericerrorSMS1: "Scenario Name can accept alphanumeric, Single space Between Words and underscore starting with alphabet only"
+ScenarioFormScenarioName2: "new scenario for save as"
+ScenarioFormScenarioName3: "abc"
+EditScenarioCustomValue2: "abc"
+EditScenarioCustomValue3: "Custom Value"
+EditCreatedScenarioName1: "1"
+
+#Test57 test data
+FollowMeEditcreatedscenarioName1: "1"
+ScenarioOutline7: "xvbnjkhui"
+ScenarioNameAlreadyTakenPopupSMS1: "Scenario Name Already Taken"
+ScenarioOutline8: "With Multiple feature and multiple scenarios"
+
+#Test58 test data
+EditScenarioControlName1: "1"
+
+#Test59 test data
+ThiswillremoveyourcreatedscenarioAlertSMS1: "This will remove your created scenario! Do you want to Procced?"
+
+#Test60 test data
+EditControlCustomValue3: "#$&123"
+
+#Test61 test data
+EditControlCustomAction2: "123#$%"
+EditControlAction2: "@#$%123"
+CustomActioncanaccepterrorSMS1: "Custom Action can accept alphanumeric, space and underscore starting with alphabet only"
+Actioncancontainserrorsms1: "Action can contains alphanumeric, hyphen, underscore starting with alphabet only"
+
+#Test62 test data
+Projectname12: "Demo Canvas21"
+ConfigurationnotfoundSMS1: "Configuration not found. Click ok to add configuration"
+NewFeaturetextbox1: "My feature"
+SuccessfullyUpdatedFeatureSMS1: "Successfully Updated Feature"
+
+#Test63 test data
+EditScenarioSearchhere1: "abc"
+
+#Test64 test data
+Rowsperpageas1: "5"
+Rowsperpageas2: "10"
+Rowsperpageas3: "25"
+Rowsperpageas4: "All"
+
+#Test65 test data
+EditScenarioSearchhere2: "Gayu for Edit Scenarios"
+ScenarioFormScenarioName4: "@randomtext"
+ScenarioFormCustomTag1: "SAAS"
+ScenarioFormScenarioOutline1: "@randomtext"
+ScenarioFormSeparateFeature1: "gayatri"
+ScenarioFormFolderStructure1: "gayatri"
+SearchedScenarioName1: "1"
+
+#Test66 test data
+ScenarioFormScenarioName5: "12Gayu"
+ScenarioFormScenarioName6: "@#$%"
+ScenarioFormScenarioName7: "      Gayu"
+
+#Test67 test data
+PleaseenterScenarioOutlineerrorSMS1: "Please enter Scenario Outline"
+
+#Test68 test data
+EditScenariodeletethisscenarioSMS1: "Are you sure you want to delete this scenario"
+SearchedScenarioName2: "abc"
+
+#Test69 test data
+tilllastofthepage1: "2"
+DataGenerationDataCombination1: "100"
+ApplicationSettingUpdatedSuccessfullySMS1: "Application Setting Updated Successfully"
+
+#Test70 test data
+DataGenerationandCombinationisrequirederrorSMS1: "Data Generation and Combination is required"
+DataGenerationDataCombination2: "Gayatri"
+DataGenerationandCombinationmustbeanumbererrorSMS1: "Data Generation and Combination must be a number"
+DataGenerationDataCombination3: "@#$"
+
+#Test71 test data
+SettingsProjectName1: "123#$  @#"
+ProjectNameerrorSMS1: "Project Name can contains alphanumeric, single space between words and underscore, starting with alphabet only"
+
+#Test72 test data
+Projectname13: "Demo4"
+SettingsProjectName2: "1"
+SettingsProjectName3: "abc"
+ProjectNameisrequirederrorSMS1: "Project Name is required"
+SettingsProjectName4: "Demoooo"
+
+#Test73 test data
+Projectname14: "Demo3"
+SettingsApplicationType1: "Web Application"
+SettingsApplicationType2: "1"
+SettingsApplicationUrl1: "sefdgfd"
+HomePageTitle1: "abc"
+SelectiveTestCaseGen1: "abc"
+InputForGWTLine1: "abc"
+PreconditionName1: "abc"
+PreconditionAction1: "abc"
+
+#Test74 test data
+ProjectSettingslabel1: "1"
+
+#Test75 test data
+RequirementFilter1: "Demoooo"
+
+#Test76 test data
+SelectiveTestCaseGen2: "123#$  @#"
+SelectiveTestCaseGenerrorSMS1: "Selective TestCaseGen can contain alphanumeric starting with alphabet no extra spaces allowed"
+
+#Test77 test data
+PreconditionName2: "123#$  @#"
+PreconditionAction2: "24$$ !@12"
+PreconditionNameerrorSMS1: "Pre-condition Name can only contains alphabets no extra spaces allowed"
+PreconditionActionerrorSMS1: "Pre-condition Action can only contains alphabets no extra spaces allowed"
+
+#Test78 test data
+HomePageTitle2: "123#$  @#"
+HomePageTitleerrorSMS1: "Home Page Title can contain alphanumeric starting with alphabet no extra spaces allowed"
+HomePageTitleisrequirederrorSMS1: "Home Page Title is required"
+
+#Test79 test data
+InputForGWTLine2: "qwertyuiopasdfghjklzxcvbnm"
+InputForGWTLine3: "qwertyuiopasdfghjklzxcvbnm qwertyuiopasdfghjklzxcvbnm"
+InputforGWTLine35charerrorSMS1: "Input for GWT Line should not be more than 35 characters length"
+InputForGWTLine4: "12#@$   67"
+InputforGWTLineerrorSMS1: "Input for GWT Line can only contains alphabets no extra spaces allowed"
+
+#Test80 test data
+SettingsApplicationUrl2: "123#$  @#"
+EnteracorrecturlerrorSMS1: "Enter a correct url"
+ApplicationUrlisrequirederrorSMS1: "Application Url is required"
+SettingsApplicationUrl3: "algoshack.com"
+
+#Test81 test data
+Projectname15: "Mobile Demo"
+SettingsAppPackage1: "avx"
+SettingsAppActivity1: "sdsd"
+SettingsBundledID1: "Bundled ID"
+SettingsAppPackage2: "123     #%^"
+SettingsAppActivity2: "123          #%^"
+AppPackageerrorSMS1: "App Package can contain alphanumeric and (.) and starting with alphabet no extra spaces allowed"
+AppActivityerrorSMS1: "App Activity can contain alphanumeric and (.) and starting with alphabet no extra spaces allowed"
+

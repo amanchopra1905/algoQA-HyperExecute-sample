@@ -1,4 +1,4 @@
-Feature: SAAS_Functional_TCs_Web Automation_SRS_TestCases_202306210730591
+Feature: SAAS_Functional_TCs_Web_Automation_SRS_TestCases_202306210730591
 #Regression Type
 #Correct Values = true
 #Incorrect Values = false

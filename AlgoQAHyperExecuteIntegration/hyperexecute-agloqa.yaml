@@ -1,0 +1,43 @@
+---
+version: 0.1
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+
+runson: win
+
+autosplit: true
+
+retryOnFailure: true
+maxRetries: 1
+
+concurrency: 2
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+pre:
+  - mvn -Dmaven.repo.local=./.m2 dependency:resolve
+
+report: true
+partialReports:
+    type: json
+    location: target/
+    frameworkName: extent-native
+  
+uploadArtifacts:
+  - name: FinalReport 
+    path:
+    - ExtentReports/**
+
+testDiscovery:
+  type: automatic
+  mode: static
+  args:
+    featureFilePaths: src/test/java/features/
+    frameWork: java
+
+testRunnerCommand: mvn test `-Dplatname=win `-Dmaven.repo.local=./.m2 `-Dcucumber.features="$test"
+
+jobLabel: ['HYP', 'algoQA']
